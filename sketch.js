@@ -1,28 +1,28 @@
 var counter = 0;
-var C;
+var myC;
 var Csharp;
-var D;
+var myD;
 var Dsharp;
-var E;
-var F;
+var myE;
+var myF;
 var Fsharp;
-var G;
+var myG;
 var Gsharp;
-var A;
+var myA;
 var Asharp;
-var B;
-let valueC = 255;
+var myB;
+let valuemyC = 255;
 let valueCsharp = 0;
-let valueD = 255;
+let valuemyD = 255;
 let valueDsharp = 0;
-let valueE = 255;
-let valueF = 255;
+let valuemyE = 255;
+let valuemyF = 255;
 let valueFsharp = 0;
-let valueG = 255;
+let valuemyG = 255;
 let valueGsharp = 0;
-let valueA = 255;
+let valuemyA = 255;
 let valueAsharp = 0;
-let valueB = 255;
+let valuemyB = 255;
 
 let volumeSlider, pitchSlider;
 
@@ -31,18 +31,18 @@ var mode = 0;
 function preload() {
   logoImage = loadImage("Mason Valentine.png");
   
-  C = loadSound("C.wav");
+  myC = loadSound("myC.wav");
   Csharp = loadSound("Csharp.wav");
-  D = loadSound("D.wav");
+  myD = loadSound("myD.wav");
   Dsharp = loadSound("Dsharp.wav");
-  E = loadSound("E.wav");
-  F = loadSound("F.wav");
+  myE = loadSound("myE.wav");
+  myF = loadSound("myF.wav");
   Fsharp = loadSound("Fsharp.wav");
-  G = loadSound("G.wav");
+  myG = loadSound("myG.wav");
   Gsharp = loadSound("Gsharp.wav");
-  A = loadSound("A.wav");
+  myA = loadSound("myA.wav");
   Asharp = loadSound("Asharp.wav");
-  B = loadSound("B.wav");
+  myB = loadSound("myB.wav");
 }
 function setup() {
   createCanvas(windowWidth, windowHeight);
