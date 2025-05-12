@@ -32,16 +32,16 @@ function preload() {
   logoImage = loadImage("Mason Valentine.png");
   
   C = loadSound("C.wav");
-  Csharp = loadSound("C#.wav");
+  Csharp = loadSound("Csharp.wav");
   D = loadSound("D.wav");
-  Dsharp = loadSound("D#.wav");
+  Dsharp = loadSound("Dsharp.wav");
   E = loadSound("E.wav");
   F = loadSound("F.wav");
-  Fsharp = loadSound("F#.wav");
+  Fsharp = loadSound("Fsharp.wav");
   G = loadSound("G.wav");
-  Gsharp = loadSound("G#.wav");
+  Gsharp = loadSound("Gsharp.wav");
   A = loadSound("A.wav");
-  Asharp = loadSound("A#.wav");
+  Asharp = loadSound("Asharp.wav");
   B = loadSound("B.wav");
 }
 function setup() {
